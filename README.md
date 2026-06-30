@@ -154,24 +154,7 @@ Sales-Analysis-Dashboard/
 
 ---
 
-# 📷 Dashboard Preview
 
-Add screenshots of your dashboard inside the **images** folder.
-
-Example:
-
-```
-images/
-│
-├── dashboard_overview.png
-├── overall_performance.png
-├── revenue_analysis.png
-├── growth_analysis.png
-```
-
-Then display them in Markdown:
-
-```md
 ## Dashboard Overview
 
 ![Dashboard](images/dashboard_overview.png)
