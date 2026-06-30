@@ -1,301 +1,231 @@
 # Sales-Analysis-on-Power-Bi-SQl
 This is full-fledged Data Analysis Project based on sales data/category/geography ,meant for performance improvement and trends analysis.
 
-# 📊 Sales Analysis Dashboard (Power BI)
+# 📊 Sales Analysis Dashboard
 
-## 📌 Project Overview
-
-This project presents an interactive **Sales Analysis Dashboard** built in **Microsoft Power BI** to analyze sales performance across different countries, products, categories, sales representatives, and time periods.
-
-The dashboard helps business stakeholders monitor revenue trends, identify top-performing regions and sales representatives, compare category performance, and make data-driven business decisions.
-
----
-
-## 🎯 Objectives
-
-* Analyze overall sales performance.
-* Track revenue growth over time.
-* Compare Year-over-Year (YoY), Quarter-over-Quarter (QoQ), and Month-over-Month (MoM) performance.
-* Identify top-performing sales representatives.
-* Evaluate country-wise and city-wise sales.
-* Analyze product category and sub-category performance.
-* Study product price range contribution to revenue.
-* Provide business insights for strategic decision making.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Measures-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
 ---
 
-# 🛠 Tools & Technologies
+# 📌 Project Overview
 
-* Microsoft Power BI Desktop
-* Power Query
-* DAX (Data Analysis Expressions)
-* Data Modeling
-* Interactive Visualizations
+The **Sales Analysis Dashboard** is an interactive Business Intelligence solution developed using **Microsoft Power BI**. It provides a comprehensive analysis of sales performance across products, customers, countries, sales representatives, and time periods.
+
+The dashboard enables business users to monitor key performance indicators, identify sales trends, evaluate regional performance, and support data-driven decision-making.
 
 ---
 
-# 📁 Dashboard Pages
+# 🎯 Project Objectives
 
-## 1. Introduction
-
-* Dashboard overview
-* Business objective
-* Navigation page
-
----
-
-## 2. Overall Statistics
-
-### KPIs
-
-* Total Revenue
-* Total Sales
-* Total Orders
-* Average Order Value
-* Total Customers
-* Profit (if available)
-
-### Visuals
-
-* KPI Cards
-* Sales Trend
-* Revenue Distribution
-* Summary Charts
+- Monitor overall sales performance.
+- Analyze revenue trends over time.
+- Compare monthly, quarterly, and yearly growth.
+- Evaluate country-wise sales performance.
+- Identify top-performing sales representatives.
+- Analyze category and sub-category performance.
+- Study product price range contribution.
+- Generate actionable business insights.
 
 ---
 
-## 3. Revenue by Country & Year
+# 🛠️ Tools & Technologies
 
-### Analysis
-
-* Revenue comparison by country
-* Year-wise revenue trend
-* Best performing countries
-* Geographic sales distribution
-
-### Visuals
-
-* Map
-* Clustered Bar Chart
-* Line Chart
-* Year Filter
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Interactive Dashboard Design
 
 ---
 
-## 4. QoQ Growth & MoM Growth
+# 📂 Dashboard Sections
 
-### KPIs
-
-* Quarterly Growth %
-* Monthly Growth %
-* Revenue Trend
-* Growth Comparison
-
-### Visuals
-
-* Line Charts
-* Growth Cards
-* Trend Analysis
-
----
-
-## 5. Top Sales Representatives
-
-### Analysis
-
-* Highest revenue generators
-* Sales ranking
-* Representative performance comparison
-
-### Visuals
-
-* Bar Chart
-* Leaderboard
-* KPI Cards
+| Dashboard Section | Description |
+|-------------------|-------------|
+| Introduction | Overview of the project and navigation |
+| Overall Performance | Summary of key business metrics |
+| Revenue Analysis | Country-wise and yearly revenue analysis |
+| Growth Analysis | Monthly and quarterly sales growth |
+| Sales Representative Analysis | Individual sales performance |
+| Regional Analysis | Country and city performance |
+| Product Analysis | Category and sub-category performance |
+| Price Range Analysis | Revenue by product price segments |
+| Conclusion | Final business recommendations |
 
 ---
 
-## 6. Country & Town-wise Performance
+# 📈 Key Performance Indicators (KPIs)
 
-### Analysis
+The dashboard tracks the following business metrics:
 
-* Revenue by Country
-* Revenue by City
-* Regional Performance
-* Sales Distribution
-
-### Visuals
-
-* Filled Map
-* Matrix
-* Bar Charts
-
----
-
-## 7. Category & Sub-category KPI
-
-### Analysis
-
-* Revenue by Category
-* Revenue by Sub-category
-* Best Selling Products
-* Product Performance
-
-### Visuals
-
-* Treemap
-* Bar Charts
-* Pie/Donut Charts
+- Total Revenue
+- Total Sales
+- Total Orders
+- Average Order Value
+- Total Customers
+- Revenue Growth
+- Monthly Growth
+- Quarterly Growth
+- Country Performance
+- Sales Representative Performance
 
 ---
 
-## 8. Product Price Range KPI
+# 📊 Business Insights
 
-### Analysis
+## Revenue Analysis
 
-* Sales by Price Range
-* Revenue Contribution
-* Customer Buying Pattern
-* High vs Low Price Products
-
-### Visuals
-
-* Histogram
-* Column Chart
-* KPI Cards
+- Monitor revenue trends across different periods.
+- Compare performance between countries.
+- Identify high-performing and low-performing regions.
+- Evaluate long-term sales growth.
 
 ---
 
-## 9. Conclusion
+## Sales Performance
 
-Summary of business findings and recommendations.
-
----
-
-# 📈 Key Business Insights
-
-### 📌 Overall Performance
-
-* Dashboard provides a complete overview of business performance.
-* Revenue trends help identify seasonal demand.
-* KPI cards provide quick business monitoring.
-
-### 🌍 Regional Analysis
-
-* Revenue varies significantly across countries.
-* Some regions consistently outperform others.
-* Geographic visualization highlights high-performing markets.
-
-### 📅 Time Analysis
-
-* Revenue changes across months and quarters.
-* Growth charts reveal seasonal business patterns.
-* QoQ and MoM analysis help monitor business momentum.
-
-### 👨‍💼 Sales Representative Performance
-
-* A small number of representatives contribute a large share of total revenue.
-* Performance comparison helps identify top performers and coaching opportunities.
-
-### 📦 Product Analysis
-
-* Some categories generate significantly higher revenue.
-* Sub-category analysis identifies the most profitable products.
-* Product mix can be optimized based on sales performance.
-
-### 💰 Price Range Analysis
-
-* Medium-priced products contribute a major share of revenue.
-* Premium products may generate higher margins despite lower sales volume.
-* Price segmentation helps optimize pricing strategy.
+- Identify top-performing sales representatives.
+- Compare individual contributions.
+- Analyze overall sales productivity.
 
 ---
 
-# 📊 Dashboard Features
+## Product Performance
 
-* Interactive Filters (Slicers)
-* Drill-through Analysis
-* Dynamic KPIs
-* Country-wise Analysis
-* Product-wise Analysis
-* Time Intelligence
-* Responsive Dashboard Layout
+- Compare category performance.
+- Evaluate sub-category contribution.
+- Identify best-selling products.
+- Understand customer purchasing preferences.
 
 ---
 
-# 📷 Dashboard Preview
+## Regional Performance
 
-> Add screenshots of each Power BI dashboard page here.
+- Compare sales across countries and cities.
+- Identify regions with strong business performance.
+- Discover expansion opportunities.
 
-Example:
+---
+
+## Price Range Analysis
+
+- Analyze revenue generated by different price segments.
+- Understand customer purchasing behavior.
+- Evaluate pricing strategy effectiveness.
+
+---
+
+# 📁 Repository Structure
 
 ```
-/images
-    overall_stats.png
-    revenue_country.png
-    qoq_growth.png
-    top_sales_rep.png
-    category_kpi.png
-```
-
-Then embed them:
-
-```md
-## Overall Statistics
-
-![Overall Dashboard](images/overall_stats.png)
-```
-
----
-
-# 📂 Repository Structure
-
-```text
 Sales-Analysis-Dashboard/
 │
 ├── Sales_analysis_Dashboard.pbix
 ├── README.md
 ├── images/
-│   ├── introduction.png
-│   ├── overall_stats.png
-│   ├── revenue_country_year.png
-│   ├── qoq_mom_growth.png
-│   ├── top_sales_representatives.png
-│   ├── country_town_performance.png
-│   ├── category_subcategory_kpi.png
-│   ├── price_range_kpi.png
-│   └── conclusion.png
+│   ├── dashboard_overview.png
+│   ├── overall_performance.png
+│   ├── revenue_analysis.png
+│   ├── growth_analysis.png
+│   ├── sales_representative.png
+│   ├── regional_analysis.png
+│   ├── product_analysis.png
+│   └── price_range_analysis.png
+│
 └── dataset/
+    └── Sales_Data.xlsx
 ```
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Dashboard Features
 
-* Forecast future sales using Power BI forecasting.
-* Add customer segmentation.
-* Include profit margin analysis.
-* Develop inventory monitoring dashboard.
-* Integrate real-time data refresh.
-* Add executive summary page.
-
----
-
-# 📌 Learning Outcomes
-
-Through this project, the following Power BI concepts were implemented:
-
-* Data Cleaning
-* Data Modeling
-* DAX Measures
-* KPI Cards
-* Time Intelligence
-* Interactive Dashboard Design
-* Drill-down Analysis
-* Business Intelligence Reporting
+- Interactive slicers
+- Dynamic filtering
+- Drill-through functionality
+- Time intelligence calculations
+- Responsive dashboard layout
+- KPI monitoring
+- Geographic analysis
+- Product performance tracking
 
 ---
 
-# ⭐ Conclusion
+# 📷 Dashboard Preview
 
-This Sales Analysis Dashboard provides an end-to-end view of business performance by combining revenue analysis, geographic insights, product performance, growth trends, and sales representative effectiveness into a single interactive reporting solution. It enables decision-makers to identify opportunities, monitor KPIs, and support strategic planning through data-driven insights.
+Add screenshots of your dashboard inside the **images** folder.
+
+Example:
+
+```
+images/
+│
+├── dashboard_overview.png
+├── overall_performance.png
+├── revenue_analysis.png
+├── growth_analysis.png
+```
+
+Then display them in Markdown:
+
+```md
+## Dashboard Overview
+
+![Dashboard](images/dashboard_overview.png)
+```
+
+---
+
+# 📌 Business Value
+
+This dashboard helps stakeholders:
+
+- Track business performance in real time.
+- Monitor revenue growth.
+- Improve sales strategies.
+- Optimize product portfolio.
+- Evaluate regional performance.
+- Support strategic decision-making.
+
+---
+
+# 💡 Future Improvements
+
+- Sales forecasting
+- Profit analysis
+- Customer segmentation
+- Inventory dashboard
+- Real-time data refresh
+- AI-powered insights
+
+---
+
+# 🎓 Learning Outcomes
+
+This project demonstrates practical experience with:
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures
+- Time Intelligence
+- Interactive Reports
+- KPI Design
+- Business Intelligence Reporting
+
+---
+
+# 📬 Contact
+
+**Rahul Kushwaha**
+
+GitHub: 
+
+Email: rahulru823@gmail.com
+
+---
+
+# ⭐ If you found this project helpful, consider giving it a Star!
